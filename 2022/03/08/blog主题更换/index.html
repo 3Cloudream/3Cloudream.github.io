@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>blog主题更换 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#主题地址这里推荐一个主题地址https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia  #方法1、首先在在cmd中切换至blog目录下，下载主题使用命令：    git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git   themes&#x2F;yilia    克隆主题到themes&#x2F;yilia目录下 2、修改_con">
+  <meta name="description" content="#主题地址这里推荐一个主题地址https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia  #方法1、首先在在cmd中切换至blog目录下，下载主题使用命令：    git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git   themes&#x2F;yilia    克隆主题到themes&#x2F;yilia目录下（网络不好时可能会">
 <meta property="og:type" content="article">
 <meta property="og:title" content="blog主题更换">
 <meta property="og:url" content="http://example.com/2022/03/08/blog%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#主题地址这里推荐一个主题地址https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia  #方法1、首先在在cmd中切换至blog目录下，下载主题使用命令：    git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git   themes&#x2F;yilia    克隆主题到themes&#x2F;yilia目录下 2、修改_con">
+<meta property="og:description" content="#主题地址这里推荐一个主题地址https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia  #方法1、首先在在cmd中切换至blog目录下，下载主题使用命令：    git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git   themes&#x2F;yilia    克隆主题到themes&#x2F;yilia目录下（网络不好时可能会">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-03-08T11:22:04.000Z">
-<meta property="article:modified_time" content="2022-03-08T11:41:25.978Z">
+<meta property="article:modified_time" content="2022-03-08T12:42:30.245Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -176,12 +176,15 @@
       
         <p>#主题地址<br>这里推荐一个主题地址<a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia" title="yilia">https://github.com/litten/hexo-theme-yilia</a></p>
 <hr>
-<p>#<strong>方法</strong><br>1、首先在在cmd中切换至blog目录下，下载主题使用命令：<br>    git clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a>   themes/yilia<br>    克隆主题到themes/yilia目录下</p>
+<p>#<strong>方法</strong><br>1、首先在在cmd中切换至blog目录下，下载主题使用命令：<br>    git clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a>   themes/yilia<br>    克隆主题到themes/yilia目录下<br>（网络不好时可能会发生错误中断）</p>
 <p>2、修改_config.yml文件，打开文件，找到theme:landscape,修改为theme:yilia</p>
 <p>3、切换至blog路径，使用hexo clean清理缓存，再使用hexo g 重新生成静态文件<br>(关于hexo命令详细信息可参考<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands.html" title="hexo">https://hexo.io/zh-cn/docs/commands.html</a>)使用hexo s 可在本地查看修改后的blog</p>
-<p>4、使用hexo d 后部署到远端</p>
+<p>4、使用hexo d 后部署到远端<br>如果想修改其他参数请参考：<a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia" title="修改参数">https://github.com/litten/hexo-theme-yilia</a></p>
 <hr>
 <p>##注意##<br>事先电脑需要装好node、git等，并配置好相关环境</p>
+<hr>
+<p>如果出现报错信息： Failed to connect to github.com port 443 after 21078 ms: Timed out</p>
+<p>方法一： 切换网络，由于刚开始使用的校园网，导致GitHub无法连接，后面采用手机热点连接，即可解决此问题。毕竟切换网络不需要更改配置那些复杂的操作。<br>方法二： 采用网上提到较多的修改git配置的方案，具体命令是 git config –global http.sslVerify false；（注意false 的拼写，以及一定不要带双引号）</p>
 
       
 
