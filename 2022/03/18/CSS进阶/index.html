@@ -24,8 +24,15 @@
 <meta property="og:image" content="https://s2.loli.net/2022/03/19/G7wpenxl1bJ6iFq.png">
 <meta property="og:image" content="https://s2.loli.net/2022/03/19/GpT3sgQf72KjzFd.png">
 <meta property="og:image" content="https://s2.loli.net/2022/03/24/9fiDzcjKOgeVT4F.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/19/jxwhvitqmcZPUKd.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/20/srnq24ezkhZWfLT.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/20/6lNYu3Fhsotcfxz.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/24/FdSuBKclhIG3ibA.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/24/q1ytfZ52RA7hECL.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/24/xhfU81otHLlqGiR.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/24/jZyTr7UBJqcMFiQ.png">
 <meta property="article:published_time" content="2022-03-18T09:02:43.000Z">
-<meta property="article:modified_time" content="2022-03-25T00:47:34.848Z">
+<meta property="article:modified_time" content="2022-03-25T01:14:03.856Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://s2.loli.net/2022/03/18/QT4JAjyFmvisX7q.png">
@@ -235,48 +242,50 @@
 <h2 id="6、CSS盒子模型"><a href="#6、CSS盒子模型" class="headerlink" title="6、CSS盒子模型"></a>6、CSS盒子模型</h2><p><a target="_blank" rel="noopener" href="https://www.runoob.com/cssref/pr-border.html">详细搜索</a></p>
 <p><img src="https://s2.loli.net/2022/03/24/9fiDzcjKOgeVT4F.png" alt="image.png"></p>
 <hr>
-<ul>
-<li>```<br>//边框 border  会影响盒子大小<br>border-width:<br>border-style:<br>border-color://复合写法<br>border：1px solid red;//边框分开写<br>border-top://相邻边框合并<br>border-collapse:collapse;<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-//内边距,设置边框与内容的距离，会影响盒子大小，如果盒子没有指定width/height则不会撑开盒子<br>padding-left:<br>padding-right:<br>padding-top:<br>padding-bottom:</li>
-</ul>
-<p>//简写复合写法</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/19/jxwhvitqmcZPUKd.png)</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//外边距<br>margin<br>margin-bottom:20px;<br>margin-top:20px;</p>
-<p>//外边距可以使块级盒子水平居中，满足以下条件：<br>1    盒子必须指定宽度<br>2    盒子左右的外边距都设置为auto,以下三种均可<br>    margin-left:auto; margin-right:auto;<br>    margin:auto;<br>    margin:0 auto;</p>
-<p>//行内元素或行内块元素水平居中可以给其父元素添加text-align:center;</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/20/srnq24ezkhZWfLT.png)</span><br><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/20/6lNYu3Fhsotcfxz.png)</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">==清除内外边距==</span><br><span class="line"></span><br><span class="line">网页元素很多都带有默认的内外边距，而且不同浏览器默认的也不一致。因此我们在布局前，首先要清除下网页元素的内外边距。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//清除<br>*{<br>    margin:0;<br>    padding:0;<br>}</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">注意∶行内元素为了照顾兼容性，尽量只设置左右内外边距，不要设置上下内外边距。但是转换为块级和行内块元素就可以了</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//在CSS3中，新增了圆角边框样式，这样我们的盒子就可以变圆角了。border-radius属性用于设置元素的外边框圆角。<br>//圆角矩形则设置为高度的一半<br>border-radius:length;</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/24/FdSuBKclhIG3ibA.png)</span><br><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/24/q1ytfZ52RA7hECL.png)</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">## 7、浮动</span><br><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/24/xhfU81otHLlqGiR.png)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>设置了浮动( float )的元素最重要特性∶<br>1．脱离标准普通流的控制(浮）移动到指定位置(动)，(俗称脱标)</p>
-<p>2．浮动的盒子不再保留原先的位置</p>
-<p>3.浮动元素会具有行内块元素特性。<br>    任何元素都可以浮动。不管原先是什么模式的元素，添加浮动之后具有行内块元素相似的特性。<br>        (1)如果块级盒子没有设置宽度，默认宽度和父级一样宽，但是添加浮动后，它的大小根据内容来决定<br>        (2)浮动的盒子中间是没有缝嘹的，是紧换着一起的<br>        (3)行内元素同理</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">为了约束浮动元紊位置,我们网页布局一般采取的策略是:先用标准流的父元素排列上下位置,之后内部子元素采取浮动排列左右位置.符合网页布局第一准侧.</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>1.清除浮动本质是?<br>清除浮动的本质是清除浮动元素脱离标准流造成的影响<br>2.清除浮动策略是?<br>闭合浮动.只让浮动在父盒子内部影响,不影响父盒子外面的其他盒子.</p>
-<p>为什么需要清除浮动?<br>    父级没高度。<br>    子盒子浮动了。<br>    影响下面布局了，我们就应该清除浮动了。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">![image.png](https://s2.loli.net/2022/03/24/jZyTr7UBJqcMFiQ.png)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>清除浮动方法<br>1．额外标签法也称为隔墙去，是W3C推荐的做法。<br>2．父级添加overflow属性<br>3．父级添加after伪元素<br>4．父级添加双伪元素</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//1．额外标签法也称为隔墙去，是W3C推荐的做法。</p>
-<p>额外标签法会在浮动元素末尾添加一个空的标签。例如&lt;divstyle=” clear:both”&gt;</div>，或者其他标签(如<br />等)。</p>
-<p>优点:通俗易懂，书写方便<br>缺点∶添加许多无意义的标签，结构化较差</p>
-<p>注意:要求这个新的空标签必须是块级元素。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//2．父级添加overflow属性</p>
-<p>可以给父级添加overflow属性，将其属性值设置为hidden、 auto  sCroll 。子不教父之过,注意是给父元素添加代码</p>
-<p>优点∶代码简洁<br>缺点:无法显示溢出的部分</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//3．父级添加after伪元素<br>:after方式是额外标签法的升级版。也是给父元素添加</p>
-<p>.clearfix:after {<br>    content: “”;<br>    display: block;<br>    height: 0;<br>    clear: both;<br>    visibility: hidden;<br>    }<br>.clearfix {<br>    *zoom: 1;<br>    }</p>
-<p>优点∶没有增加标签，结构更简单<br>缺点:照顾低版本浏览器<br>代表网姑:百度、淘宝网、网易等</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<p>//4．父级添加双伪元素<br>也是给给父元素添加<br>.clearfix:before,.clearfix:after {<br>    content : “”;<br>    display:table;<br>    }<br>.clearfix:after {<br>    clear:both;<br>    }<br>.clearfix {<br>    *zcom: 1;<br>    }<br>优点∶代码更简洁<br>缺点:照顾低版本浏览器<br>代表网站:小米、腾讯等    </p>
-<pre><code>
----
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">//边框 border  会影响盒子大小</span><br><span class="line">border-width:</span><br><span class="line">border-style:</span><br><span class="line">border-color:</span><br><span class="line"></span><br><span class="line">//复合写法</span><br><span class="line">border：1px solid red;</span><br><span class="line"></span><br><span class="line">//边框分开写</span><br><span class="line">border-top:</span><br><span class="line"></span><br><span class="line">//相邻边框合并</span><br><span class="line">border-collapse:collapse;</span><br></pre></td></tr></table></figure>
 
-end
-</code></pre>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//内边距,设置边框与内容的距离，会影响盒子大小，如果盒子没有指定width/height则不会撑开盒子</span><br><span class="line">padding-left:</span><br><span class="line">padding-right:</span><br><span class="line">padding-top:</span><br><span class="line">padding-bottom:</span><br><span class="line"></span><br><span class="line">//简写复合写法</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s2.loli.net/2022/03/19/jxwhvitqmcZPUKd.png" alt="image.png"></p>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//外边距</span><br><span class="line">margin</span><br><span class="line">margin-bottom:20px;</span><br><span class="line">margin-top:20px;</span><br><span class="line"></span><br><span class="line">//外边距可以使块级盒子水平居中，满足以下条件：</span><br><span class="line">1	盒子必须指定宽度</span><br><span class="line">2	盒子左右的外边距都设置为auto,以下三种均可</span><br><span class="line">	margin-left:auto; margin-right:auto;</span><br><span class="line">	margin:auto;</span><br><span class="line">	margin:0 auto;</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">//行内元素或行内块元素水平居中可以给其父元素添加text-align:center;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s2.loli.net/2022/03/20/srnq24ezkhZWfLT.png" alt="image.png"></p>
+<p><img src="https://s2.loli.net/2022/03/20/6lNYu3Fhsotcfxz.png" alt="image.png"></p>
+<hr>
+<p>==清除内外边距==</p>
+<p>网页元素很多都带有默认的内外边距，而且不同浏览器默认的也不一致。因此我们在布局前，首先要清除下网页元素的内外边距。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//清除</span><br><span class="line">*&#123;</span><br><span class="line">	margin:0;</span><br><span class="line">	padding:0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>注意∶行内元素为了照顾兼容性，尽量只设置左右内外边距，不要设置上下内外边距。但是转换为块级和行内块元素就可以了</p>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//在CSS3中，新增了圆角边框样式，这样我们的盒子就可以变圆角了。border-radius属性用于设置元素的外边框圆角。</span><br><span class="line">//圆角矩形则设置为高度的一半</span><br><span class="line">border-radius:length;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p><img src="https://s2.loli.net/2022/03/24/FdSuBKclhIG3ibA.png" alt="image.png"></p>
+<p><img src="https://s2.loli.net/2022/03/24/q1ytfZ52RA7hECL.png" alt="image.png"></p>
+<hr>
+<h2 id="7、浮动"><a href="#7、浮动" class="headerlink" title="7、浮动"></a>7、浮动</h2><p><img src="https://s2.loli.net/2022/03/24/xhfU81otHLlqGiR.png" alt="image.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">设置了浮动( float )的元素最重要特性∶</span><br><span class="line">1．脱离标准普通流的控制(浮）移动到指定位置(动)，(俗称脱标)</span><br><span class="line"></span><br><span class="line">2．浮动的盒子不再保留原先的位置</span><br><span class="line"></span><br><span class="line">3.浮动元素会具有行内块元素特性。</span><br><span class="line">	任何元素都可以浮动。不管原先是什么模式的元素，添加浮动之后具有行内块元素相似的特性。</span><br><span class="line">		(1)如果块级盒子没有设置宽度，默认宽度和父级一样宽，但是添加浮动后，它的大小根据内容来决定</span><br><span class="line">		(2)浮动的盒子中间是没有缝嘹的，是紧换着一起的</span><br><span class="line">		(3)行内元素同理</span><br></pre></td></tr></table></figure>
+
+<p>为了约束浮动元紊位置,我们网页布局一般采取的策略是:先用标准流的父元素排列上下位置,之后内部子元素采取浮动排列左右位置.符合网页布局第一准侧.</p>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1.清除浮动本质是?</span><br><span class="line">清除浮动的本质是清除浮动元素脱离标准流造成的影响</span><br><span class="line">2.清除浮动策略是?</span><br><span class="line">闭合浮动.只让浮动在父盒子内部影响,不影响父盒子外面的其他盒子.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">为什么需要清除浮动?</span><br><span class="line">	父级没高度。</span><br><span class="line">	子盒子浮动了。</span><br><span class="line">	影响下面布局了，我们就应该清除浮动了。</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s2.loli.net/2022/03/24/jZyTr7UBJqcMFiQ.png" alt="image.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">清除浮动方法</span><br><span class="line">1．额外标签法也称为隔墙去，是W3C推荐的做法。</span><br><span class="line">2．父级添加overflow属性</span><br><span class="line">3．父级添加after伪元素</span><br><span class="line">4．父级添加双伪元素</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//1．额外标签法也称为隔墙去，是W3C推荐的做法。</span><br><span class="line"></span><br><span class="line">额外标签法会在浮动元素末尾添加一个空的标签。例如&lt;divstyle=&quot; clear:both”&gt;&lt;/div&gt;，或者其他标签(如&lt;br /&gt;等)。</span><br><span class="line"></span><br><span class="line">优点:通俗易懂，书写方便</span><br><span class="line">缺点∶添加许多无意义的标签，结构化较差</span><br><span class="line"></span><br><span class="line">注意:要求这个新的空标签必须是块级元素。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//2．父级添加overflow属性</span><br><span class="line"></span><br><span class="line">可以给父级添加overflow属性，将其属性值设置为hidden、 auto  sCroll 。子不教父之过,注意是给父元素添加代码</span><br><span class="line"></span><br><span class="line">优点∶代码简洁</span><br><span class="line">缺点:无法显示溢出的部分</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">//3．父级添加after伪元素</span><br><span class="line">:after方式是额外标签法的升级版。也是给父元素添加</span><br><span class="line"></span><br><span class="line">.clearfix:after &#123;</span><br><span class="line">	content: &quot;&quot;;</span><br><span class="line">	display: block;</span><br><span class="line">	height: 0;</span><br><span class="line">	clear: both;</span><br><span class="line">	visibility: hidden;</span><br><span class="line">	&#125;</span><br><span class="line">.clearfix &#123;</span><br><span class="line">	*zoom: 1;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">优点∶没有增加标签，结构更简单</span><br><span class="line">缺点:照顾低版本浏览器</span><br><span class="line">代表网姑:百度、淘宝网、网易等</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">//4．父级添加双伪元素</span><br><span class="line">也是给给父元素添加</span><br><span class="line">.clearfix:before,.clearfix:after &#123;</span><br><span class="line">	content : &quot;&quot;;</span><br><span class="line">	display:table;</span><br><span class="line">	&#125;</span><br><span class="line">.clearfix:after &#123;</span><br><span class="line">	clear:both;</span><br><span class="line">	&#125;</span><br><span class="line">.clearfix &#123;</span><br><span class="line">	*zcom: 1;</span><br><span class="line">	&#125;</span><br><span class="line">优点∶代码更简洁</span><br><span class="line">缺点:照顾低版本浏览器</span><br><span class="line">代表网站:小米、腾讯等	</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>end</p>
 
       
 
