@@ -6,15 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>CSS高级技巧 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="1、精灵图的使用">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS高级技巧">
+<meta property="og:url" content="http://example.com/2022/04/02/CSS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1、精灵图的使用">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021348506.png">
+<meta property="og:image" content="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021405435.png">
+<meta property="article:published_time" content="2022-04-02T05:04:14.000Z">
+<meta property="article:modified_time" content="2022-04-02T06:05:06.531Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021348506.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,16 +157,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-CSS高级技巧" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-CSS高级技巧" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/04/02/CSS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/">CSS高级技巧</a>
+    <h1 class="article-title" itemprop="name">
+      CSS高级技巧
     </h1>
   
 
@@ -178,6 +183,37 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://s2.loli.net/2022/03/08/P9TNGk5MQrixmb8.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://s2.loli.net/2022/03/10/6Drij1fqFICbecZ.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -185,16 +221,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/04/02/CSS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/04/02/CSS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2022/03/25/CSS%E8%BF%9B%E9%98%B62/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CSS进阶2</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -214,760 +309,14 @@
 
 
 
-
-  
-    <article id="post-CSS进阶2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/25/CSS%E8%BF%9B%E9%98%B62/">CSS进阶2</a>
-    </h1>
-  
-
-        
-        <a href="/2022/03/25/CSS%E8%BF%9B%E9%98%B62/" class="archive-article-date">
-  	<time datetime="2022-03-25T05:06:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-25</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//圆角矩形</span><br><span class="line">border-radius:10px;</span><br></pre></td></tr></table></figure>
-
-<h2 id="1、定位"><a href="#1、定位" class="headerlink" title="1、定位"></a>1、定位</h2><p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204020948603.png" alt="image-20220402094848905"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204020951963.png" alt="image-20220402095105753"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204020951560.png" alt="image-20220402095152162"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021048515.png" alt="image-20220402095729578"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021009664.png" alt="image-20220402100900298"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021014315.png" alt="image-20220402101441058"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021022116.png" alt="image-20220402102242659"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021048854.png" alt="image-20220402104120509"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021048898.png" alt="image-20220402104838293"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021054816.png" alt="image-20220402105410552"></p>
-<h2 id="2、元素的显示与隐藏"><a href="#2、元素的显示与隐藏" class="headerlink" title="2、元素的显示与隐藏"></a>2、元素的显示与隐藏</h2><p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021245237.png" alt="image-20220402124542069"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021248725.png" alt="image-20220402124816635"></p>
-<p><img src="https://gitee.com/Cloudream3/pic-go/raw/master/img/202204021255664.png" alt="image-20220402125533543"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/25/CSS%E8%BF%9B%E9%98%B62/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-CSS进阶1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/18/CSS%E8%BF%9B%E9%98%B61/">CSS进阶1</a>
-    </h1>
-  
-
-        
-        <a href="/2022/03/18/CSS%E8%BF%9B%E9%98%B61/" class="archive-article-date">
-  	<time datetime="2022-03-18T09:02:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="1、Emmet语法"><a href="#1、Emmet语法" class="headerlink" title="1、Emmet语法"></a>1、Emmet语法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">提高html/css编写速度，Vscode内部已经继承该语法</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/03/18/QT4JAjyFmvisX7q.png"></p>
-<p><img src="https://s2.loli.net/2022/03/18/24jlxJEsMR3bAXc.png"></p>
-<hr>
-<h2 id="2、复合选择器"><a href="#2、复合选择器" class="headerlink" title="2、复合选择器"></a>2、复合选择器</h2><p>==注意权重问题==</p>
-<p><img src="https://s2.loli.net/2022/03/18/rTxWb5gly4dcFEU.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">复合选择器是建立在基础选择器之上的，对基本选择器进行组合形成的</span><br></pre></td></tr></table></figure>
-
-<h3 id="后代选择器"><a href="#后代选择器" class="headerlink" title="后代选择器"></a>后代选择器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">父标签 子标签&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">父标签 子标签 孙标签&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">对于每一个标签可以使用标签/id/类选择器</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="子选择器"><a href="#子选择器" class="headerlink" title="子选择器"></a>子选择器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">只能选择作为某元素的最近一级子元素</span><br><span class="line">元素1&gt;元素2&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="并集选择器"><a href="#并集选择器" class="headerlink" title="并集选择器"></a>并集选择器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">元素1,元素2,..&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">元素也可以是复合选择器</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h3><img src="https://s2.loli.net/2022/03/18/piLm79rYolCQSRn.png"  />
-
-<p><img src="https://s2.loli.net/2022/03/18/1lnEyMgDhbzQHc3.png"></p>
-<hr>
-<p><img src="https://s2.loli.net/2022/03/18/p6fKDghSukGdtXx.png"></p>
-<hr>
-<h2 id="3、转换"><a href="#3、转换" class="headerlink" title="3、转换"></a>3、转换</h2><h3 id="转化为块级元素"><a href="#转化为块级元素" class="headerlink" title="转化为块级元素"></a>转化为块级元素</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">display:block;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="转化为行内元素"><a href="#转化为行内元素" class="headerlink" title="转化为行内元素"></a>转化为行内元素</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">display:inline;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="转换为行内块元素"><a href="#转换为行内块元素" class="headerlink" title="转换为行内块元素"></a>转换为行内块元素</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">display:inline-block;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="4、CSS背景"><a href="#4、CSS背景" class="headerlink" title="4、CSS背景"></a>4、CSS背景</h2><p><a target="_blank" rel="noopener" href="https://www.runoob.com/css/css-tutorial.html">background详细查询</a></p>
-<p>==颜色、图片、平铺方式，背景图片的位置、精确定位、背景固定==</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//复合背景写法</span><br><span class="line">background:背景颜色 背景图片地址 背景平铺 背景图像滚动 背景图片位置</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//背景色半透明</span><br><span class="line">background:rgba(r,g,b,透明度)</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/03/19/G7wpenxl1bJ6iFq.png" alt="background"></p>
-<hr>
-<h2 id="5、CSS三大特性"><a href="#5、CSS三大特性" class="headerlink" title="5、CSS三大特性"></a>5、CSS三大特性</h2><p>层叠行：就近原则</p>
-<p>继承性：基础父标签与文字相关的</p>
-<p>优先级 ：复合选择器有权重叠加<img src="https://s2.loli.net/2022/03/19/GpT3sgQf72KjzFd.png"></p>
-<hr>
-<h2 id="6、CSS盒子模型"><a href="#6、CSS盒子模型" class="headerlink" title="6、CSS盒子模型"></a>6、CSS盒子模型</h2><p><a target="_blank" rel="noopener" href="https://www.runoob.com/cssref/pr-border.html">详细搜索</a></p>
-<p><img src="https://s2.loli.net/2022/03/24/9fiDzcjKOgeVT4F.png" alt="image.png"></p>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">//边框 border  会影响盒子大小</span><br><span class="line">border-width:</span><br><span class="line">border-style:</span><br><span class="line">border-color:</span><br><span class="line"></span><br><span class="line">//复合写法</span><br><span class="line">border：1px solid red;</span><br><span class="line"></span><br><span class="line">//边框分开写</span><br><span class="line">border-top:</span><br><span class="line"></span><br><span class="line">//相邻边框合并</span><br><span class="line">border-collapse:collapse;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//内边距,设置边框与内容的距离，会影响盒子大小，如果盒子没有指定width/height则不会撑开盒子</span><br><span class="line">padding-left:</span><br><span class="line">padding-right:</span><br><span class="line">padding-top:</span><br><span class="line">padding-bottom:</span><br><span class="line"></span><br><span class="line">//简写复合写法</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/03/19/jxwhvitqmcZPUKd.png" alt="image.png"></p>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//外边距</span><br><span class="line">margin</span><br><span class="line">margin-bottom:20px;</span><br><span class="line">margin-top:20px;</span><br><span class="line"></span><br><span class="line">//外边距可以使块级盒子水平居中，满足以下条件：</span><br><span class="line">1	盒子必须指定宽度</span><br><span class="line">2	盒子左右的外边距都设置为auto,以下三种均可</span><br><span class="line">	margin-left:auto; margin-right:auto;</span><br><span class="line">	margin:auto;</span><br><span class="line">	margin:0 auto;</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">//行内元素或行内块元素水平居中可以给其父元素添加text-align:center;</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/03/20/srnq24ezkhZWfLT.png" alt="image.png"></p>
-<p><img src="https://s2.loli.net/2022/03/20/6lNYu3Fhsotcfxz.png" alt="image.png"></p>
-<hr>
-<p>==清除内外边距==</p>
-<p>网页元素很多都带有默认的内外边距，而且不同浏览器默认的也不一致。因此我们在布局前，首先要清除下网页元素的内外边距。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//清除</span><br><span class="line">*&#123;</span><br><span class="line">	margin:0;</span><br><span class="line">	padding:0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>注意∶行内元素为了照顾兼容性，尽量只设置左右内外边距，不要设置上下内外边距。但是转换为块级和行内块元素就可以了</p>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//在CSS3中，新增了圆角边框样式，这样我们的盒子就可以变圆角了。border-radius属性用于设置元素的外边框圆角。</span><br><span class="line">//圆角矩形则设置为高度的一半</span><br><span class="line">border-radius:length;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p><img src="https://s2.loli.net/2022/03/24/FdSuBKclhIG3ibA.png" alt="image.png"></p>
-<p><img src="https://s2.loli.net/2022/03/24/q1ytfZ52RA7hECL.png" alt="image.png"></p>
-<hr>
-<h2 id="7、浮动"><a href="#7、浮动" class="headerlink" title="7、浮动"></a>7、浮动</h2><p><img src="https://s2.loli.net/2022/03/24/xhfU81otHLlqGiR.png" alt="image.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">设置了浮动( float )的元素最重要特性∶</span><br><span class="line">1．脱离标准普通流的控制(浮）移动到指定位置(动)，(俗称脱标)</span><br><span class="line"></span><br><span class="line">2．浮动的盒子不再保留原先的位置</span><br><span class="line"></span><br><span class="line">3.浮动元素会具有行内块元素特性。</span><br><span class="line">	任何元素都可以浮动。不管原先是什么模式的元素，添加浮动之后具有行内块元素相似的特性。</span><br><span class="line">		(1)如果块级盒子没有设置宽度，默认宽度和父级一样宽，但是添加浮动后，它的大小根据内容来决定</span><br><span class="line">		(2)浮动的盒子中间是没有缝嘹的，是紧换着一起的</span><br><span class="line">		(3)行内元素同理</span><br></pre></td></tr></table></figure>
-
-<p>为了约束浮动元紊位置,我们网页布局一般采取的策略是:先用标准流的父元素排列上下位置,之后内部子元素采取浮动排列左右位置.符合网页布局第一准侧.</p>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1.清除浮动本质是?</span><br><span class="line">清除浮动的本质是清除浮动元素脱离标准流造成的影响</span><br><span class="line">2.清除浮动策略是?</span><br><span class="line">闭合浮动.只让浮动在父盒子内部影响,不影响父盒子外面的其他盒子.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">为什么需要清除浮动?</span><br><span class="line">	父级没高度。</span><br><span class="line">	子盒子浮动了。</span><br><span class="line">	影响下面布局了，我们就应该清除浮动了。</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/03/24/jZyTr7UBJqcMFiQ.png" alt="image.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">清除浮动方法</span><br><span class="line">1．额外标签法也称为隔墙去，是W3C推荐的做法。</span><br><span class="line">2．父级添加overflow属性</span><br><span class="line">3．父级添加after伪元素</span><br><span class="line">4．父级添加双伪元素</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//1．额外标签法也称为隔墙去，是W3C推荐的做法。</span><br><span class="line"></span><br><span class="line">额外标签法会在浮动元素末尾添加一个空的标签。例如&lt;divstyle=&quot; clear:both”&gt;&lt;/div&gt;，或者其他标签(如&lt;br /&gt;等)。</span><br><span class="line"></span><br><span class="line">优点:通俗易懂，书写方便</span><br><span class="line">缺点∶添加许多无意义的标签，结构化较差</span><br><span class="line"></span><br><span class="line">注意:要求这个新的空标签必须是块级元素。</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//2．父级添加overflow属性</span><br><span class="line"></span><br><span class="line">可以给父级添加overflow属性，将其属性值设置为hidden、 auto  sCroll 。子不教父之过,注意是给父元素添加代码</span><br><span class="line"></span><br><span class="line">优点∶代码简洁</span><br><span class="line">缺点:无法显示溢出的部分</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">//3．父级添加after伪元素</span><br><span class="line">:after方式是额外标签法的升级版。也是给父元素添加</span><br><span class="line"></span><br><span class="line">.clearfix:after &#123;</span><br><span class="line">	content: &quot;&quot;;</span><br><span class="line">	display: block;</span><br><span class="line">	height: 0;</span><br><span class="line">	clear: both;</span><br><span class="line">	visibility: hidden;</span><br><span class="line">	&#125;</span><br><span class="line">.clearfix &#123;</span><br><span class="line">	*zoom: 1;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">优点∶没有增加标签，结构更简单</span><br><span class="line">缺点:照顾低版本浏览器</span><br><span class="line">代表网姑:百度、淘宝网、网易等</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">//4．父级添加双伪元素</span><br><span class="line">也是给给父元素添加</span><br><span class="line">.clearfix:before,.clearfix:after &#123;</span><br><span class="line">	content : &quot;&quot;;</span><br><span class="line">	display:table;</span><br><span class="line">	&#125;</span><br><span class="line">.clearfix:after &#123;</span><br><span class="line">	clear:both;</span><br><span class="line">	&#125;</span><br><span class="line">.clearfix &#123;</span><br><span class="line">	*zcom: 1;</span><br><span class="line">	&#125;</span><br><span class="line">优点∶代码更简洁</span><br><span class="line">缺点:照顾低版本浏览器</span><br><span class="line">代表网站:小米、腾讯等	</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>end</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/18/CSS%E8%BF%9B%E9%98%B61/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-悦听music" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/18/%E6%82%A6%E5%90%ACmusic/">悦听music</a>
-    </h1>
-  
-
-        
-        <a href="/2022/03/18/%E6%82%A6%E5%90%ACmusic/" class="archive-article-date">
-  	<time datetime="2022-03-18T07:32:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="自制音乐播放器"><a href="#自制音乐播放器" class="headerlink" title="自制音乐播放器"></a>自制音乐播放器</h3><p><a target="_blank" rel="noopener" href="http://39.108.84.52:8080/travel/music/index.html">悦听player</a></p>
-<p><img src="https://s2.loli.net/2022/03/08/tSmRy2IQ8rL1VMU.jpg" alt="music"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/18/%E6%82%A6%E5%90%ACmusic/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Vue基本语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="title-Vue基本用法"><a href="#title-Vue基本用法" class="headerlink" title="title:Vue基本用法"></a>title:Vue基本用法</h2><p>==Vue基本用法==</p>
-<p><a target="_blank" rel="noopener" href="https://v3.cn.vuejs.org/guide/installation.html">详细参考</a></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//vue引入</span><br><span class="line">//&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-text"><a href="#v-text" class="headerlink" title="v-text"></a>v-text</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">v-text指令作用是设置标签的内容，文本定义在data属性中</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-html"><a href="#v-html" class="headerlink" title="v-html"></a>v-html</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">设置元素的innerHTML,文本定义在data属性中</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-on"><a href="#v-on" class="headerlink" title="v-on"></a>v-on</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1、为元素绑定事件，指令可以写v-on或简写为@，绑定的方法定义在methods属性中，方法内部可以通过this获取元素值</span><br><span class="line">2、事件绑定的方法写成函数调用的形式，可以传入自定义参数，事件后面可以跟随&#x27;keyup.修饰符&#x27;可以对事件进行限制，&#x27;.enter&#x27;可以限制出发的按键为回车</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-show"><a href="#v-show" class="headerlink" title="v-show"></a>v-show</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">根据真假切换元素的显示状态，原理是修改元素的display，实现显示隐藏</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-if"><a href="#v-if" class="headerlink" title="v-if"></a>v-if</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">根据表达式的真假切换元素的显示状态，本质是通过操作dom元素来切换显示状态，表达式的值为true,元素存在于dom树中，false时从dom树删除</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">为元素绑定属性，完整写法v-bind:属性名，简写:属性名，真假判断可以写成&#123;属性值:boolean&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-for"><a href="#v-for" class="headerlink" title="v-for"></a>v-for</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">根据数据生成列表结构，数组经常和v-for结合使用，语法是(item,index) in 数据，item和index可以和其他指令一起使用，数组长度的更新会同步到页面上，是响应式的</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">作用是便捷的设置和获取表单元素的值，绑定的数据会和表单元素值相关联</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="axios"><a href="#axios" class="headerlink" title="axios"></a>axios</h2><p><a target="_blank" rel="noopener" href="https://github.com/axios/axios">axios使用说明</a></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//引入</span><br><span class="line">//&lt;script src=&quot;https://unpkg.com/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>==这里是一些好玩的接口==</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">接口1：随机笑话</span><br><span class="line">请求地址:https://autumnfish.cn/api/joke/list</span><br><span class="line">请求方式:get</span><br><span class="line">请求参数:num(笑话条数，字数)</span><br><span class="line">相应内容:随机笑话</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">接口1：用户注册</span><br><span class="line">请求地址:http://autumnfish.cn/api/user/reg</span><br><span class="line">请求方式:post</span><br><span class="line">请求参数:username(用户名，字符串)</span><br><span class="line">相应内容:注册成功或失败</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h4 id="axios使用"><a href="#axios使用" class="headerlink" title="axios使用"></a>axios使用</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">axios必须先导入才能使用，使用get或post方法即可发送请求，then方法中的回调函数在请求成功(第一个)或请求失败(第二个)时出发，通过回调函数的响应内容或错误信息，使用示例如下</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>axios<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">value</span>=<span class="string">&quot;get请求&quot;</span> <span class="attr">id</span>=<span class="string">&quot;get&quot;</span> @<span class="attr">click</span>=<span class="string">&quot;get1&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">value</span>=<span class="string">&quot;post请求&quot;</span> <span class="attr">id</span>=<span class="string">&quot;post&quot;</span> @<span class="attr">click</span>=<span class="string">&quot;post1&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/axios/dist/axios.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">   </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> app=<span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">el</span>:<span class="string">&quot;#app&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">methods</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">get1</span>:<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                    axios.<span class="title function_">get</span>(<span class="string">&quot;https://autumnfish.cn/api/joke/list?num=8&quot;</span>).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">response</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="variable language_">console</span>.<span class="title function_">log</span>(response);</span></span><br><span class="line"><span class="language-javascript">                    &#125;,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                        <span class="variable language_">console</span>.<span class="title function_">log</span>(err);</span></span><br><span class="line"><span class="language-javascript">                    &#125;)</span></span><br><span class="line"><span class="language-javascript">                    &#125;,</span></span><br><span class="line"><span class="language-javascript">                 <span class="attr">post1</span>:<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                    axios.<span class="title function_">post</span>(<span class="string">&quot;https://autumnfish.cn/api/user/reg&quot;</span>,&#123;<span class="attr">username</span>:<span class="string">&quot;六月天&quot;</span>&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">response</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                        <span class="variable language_">console</span>.<span class="title function_">log</span>(response);</span></span><br><span class="line"><span class="language-javascript">                    &#125;,<span class="keyword">function</span>(<span class="params">err</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                        <span class="variable language_">console</span>.<span class="title function_">log</span>(err);</span></span><br><span class="line"><span class="language-javascript">                    &#125;)</span></span><br><span class="line"><span class="language-javascript">                    </span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">       </span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span> <span class="attr">value</span>=<span class="string">&quot;按钮&quot;</span> @<span class="attr">click</span>=<span class="string">&quot;jok&quot;</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123; joke &#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span> </span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/axios/dist/axios.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> app=<span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">el</span>:<span class="string">&quot;#app&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">data</span>:&#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">joke</span>:<span class="string">&quot;很好笑的笑话&quot;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;,</span></span><br><span class="line"><span class="language-javascript">            <span class="attr">methods</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">jok</span>:<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="keyword">var</span> that=<span class="variable language_">this</span>;</span></span><br><span class="line"><span class="language-javascript">                    axios.<span class="title function_">get</span>(<span class="string">&quot;https://autumnfish.cn/api/joke&quot;</span>).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">response</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">                        that.<span class="property">joke</span>=response.<span class="property">data</span>;</span></span><br><span class="line"><span class="language-javascript">                    &#125;,<span class="keyword">function</span>(<span class="params">err</span>)&#123;&#125;)</span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;)</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/18/Vue%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-天气查询" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="title-天气查询"><a href="#title-天气查询" class="headerlink" title="title:天气查询"></a>title:天气查询</h2><h1 id="天气查询"><a href="#天气查询" class="headerlink" title="天气查询"></a>天气查询</h1><h3 id="娟宝快来试试"><a href="#娟宝快来试试" class="headerlink" title="娟宝快来试试"></a><a target="_blank" rel="noopener" href="http://39.108.84.52:8080/travel/weather/index.html">娟宝快来试试</a></h3><p>​                            </p>
-<p><img src="https://s2.loli.net/2022/03/18/b2AXcKZ4zRFUDmw.png"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/18/%E5%A4%A9%E6%B0%94%E6%9F%A5%E8%AF%A2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-piano and net" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="title-模拟钢琴"><a href="#title-模拟钢琴" class="headerlink" title="title:模拟钢琴"></a>title:模拟钢琴</h2><h2 id="模拟钢琴"><a href="#模拟钢琴" class="headerlink" title="模拟钢琴"></a><a target="_blank" rel="noopener" href="http://39.108.84.52:8080/travel/piano/index.html">模拟钢琴</a></h2><h2 id="伪教务页面"><a href="#伪教务页面" class="headerlink" title="伪教务页面"></a><a target="_blank" rel="noopener" href="http://39.108.84.52:8080/travel/2/net.html">伪教务页面</a></h2><p><img src="https://s2.loli.net/2022/03/08/qr5xsb913XEUOzZ.jpg" alt="花海"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/15/piano%20and%20net/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-CSS基本语义" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/12/CSS%E5%9F%BA%E6%9C%AC%E8%AF%AD%E4%B9%89/">CSS基本语义</a>
-    </h1>
-  
-
-        
-        <a href="/2022/03/12/CSS%E5%9F%BA%E6%9C%AC%E8%AF%AD%E4%B9%89/" class="archive-article-date">
-  	<time datetime="2022-03-12T03:46:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-12</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="CSS基本使用"><a href="#CSS基本使用" class="headerlink" title="CSS基本使用"></a>CSS基本使用</h1><h2 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//标签选择器</span><br><span class="line">标签名&#123;</span><br><span class="line">	属性1：属性值;</span><br><span class="line">	...</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//类选择器	单个标签可以使用多个类名选择器，类名用空格隔开</span><br><span class="line">.类名&#123;</span><br><span class="line">	属性1：属性值;</span><br><span class="line">	...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//id选择器	只能调用一次</span><br><span class="line">#id名&#123;</span><br><span class="line">	属性1：属性值;</span><br><span class="line">	...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//通配符选择器	自动给所有元素使用样式</span><br><span class="line">*&#123;</span><br><span class="line">	属性1：属性值;</span><br><span class="line">	...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="样式"><a href="#样式" class="headerlink" title="样式"></a>样式</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">font-family:&quot;&quot;  字体属性</span><br><span class="line">font-size:&quot;&quot;	字体大小，表题标签需要单独指定大小</span><br><span class="line">font-weight:&quot;&quot;	字体粗细</span><br><span class="line">font-style:&quot;&quot;	字体样式，文本风格</span><br><span class="line"></span><br><span class="line">font:&quot;&quot;			复合属性，节省代码，有一定顺序</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">color	字体颜色</span><br><span class="line">text-align	设置文本对齐方式</span><br><span class="line">text-decoration		装饰文本-线</span><br><span class="line">text-indent		首行缩进</span><br><span class="line"></span><br><span class="line">line-height		行间距</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="CSS引入方式"><a href="#CSS引入方式" class="headerlink" title="CSS引入方式"></a>CSS引入方式</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//内部样式表</span><br><span class="line">如上.....</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//行内样式表</span><br><span class="line">在标签内部加入 style=&quot;属性:属性值; ...&quot;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//外部样式表</span><br><span class="line">//在外部建立css文件,引入html文件中</span><br><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;路径&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>end……..</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/12/CSS%E5%9F%BA%E6%9C%AC%E8%AF%AD%E4%B9%89/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-html标签语义" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="title-HTML-感谢pink老师"><a href="#title-HTML-感谢pink老师" class="headerlink" title="title:HTML 感谢pink老师 "></a>title:HTML 感谢pink老师 </h2><h1 id="HTML-感谢pink老师"><a href="#HTML-感谢pink老师" class="headerlink" title="HTML 感谢pink老师"></a>HTML 感谢pink老师</h1><h3 id="标签详细使用搜索"><a href="#标签详细使用搜索" class="headerlink" title="标签详细使用搜索"></a><a target="_blank" rel="noopener" href="https://www.runoob.com/">标签详细使用搜索</a></h3><hr>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">h1 h2 h3 h4 h5 h6 标题标签 独占一行</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p 段落标签</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;br/&gt;	换行标签</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//前面标签语义更强烈，推荐使用</span><br><span class="line">strong | b	较加粗</span><br><span class="line">em | i		倾斜</span><br><span class="line">del | s 	删除线</span><br><span class="line">ins | u 	下滑线 </span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">div | span 	没有语义，是一个盒子用来装内容</span><br><span class="line">div		大盒子独占一行</span><br><span class="line">span	小盒子一行可以放多个</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;&quot; /&gt;	图像标签</span><br><span class="line"></span><br><span class="line">a	超链接标签</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>==特殊字符==</p>
-<p><img src="https://s2.loli.net/2022/03/11/iQ2W9fKLebmDEnX.png" alt="特殊字符"></p>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">table	表格标签</span><br><span class="line">tr		表格中的行</span><br><span class="line">td		表格中的列 </span><br><span class="line">th 		表头单元格位于第一行或第一列突出重要性，表头单元格的文本内容会加粗</span><br><span class="line"></span><br><span class="line">thead 	表格头部区域</span><br><span class="line">tbody 	表格主题区域</span><br><span class="line"></span><br><span class="line">rowspan 	跨行合并</span><br><span class="line">colspan		跨列合并 </span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">ul	无序列表</span><br><span class="line">li	无序列表的内容</span><br><span class="line"></span><br><span class="line">ol	有序列表</span><br><span class="line">li	有序列表的内容</span><br><span class="line"></span><br><span class="line">dl	自定义列表</span><br><span class="line">dt	定义列名</span><br><span class="line">dd	列的内容</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">form	表单</span><br><span class="line">input	用于表单收集用户信息</span><br><span class="line">label 	绑定一个表单元素，单击标签文本时自动转换焦点 </span><br><span class="line">select	下拉表单</span><br><span class="line">textarea	文本域</span><br></pre></td></tr></table></figure>
-
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/11/html%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-正则表达式基本语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">正则表达式</a>
-    </h1>
-  
-
-        
-        <a href="/2022/03/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" class="archive-article-date">
-  	<time datetime="2022-03-10T10:42:53.554Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-10</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h1><h3 id="推荐在线正则表达式测试"><a href="#推荐在线正则表达式测试" class="headerlink" title="推荐在线正则表达式测试"></a>推荐在线<a target="_blank" rel="noopener" href="http://regex101.com/">正则表达式测试</a></h3><h3 id="1、限定符"><a href="#1、限定符" class="headerlink" title="1、限定符"></a>1、限定符</h3><ul>
-<li><p>？</p>
-<p>a?表示a出现0次或1次</p>
-</li>
-<li><p>*</p>
-<p>a*表示a出现0次或多次</p>
-</li>
-<li><p>+</p>
-</li>
-</ul>
-<p>​        匹配出现1次或多次</p>
-<ul>
-<li> {…}</li>
-</ul>
-<p>​        a{6}指定a出现6次，a{2,6}a出现次数为2-6之间，a{2,}a出现为两次以上</p>
-<h3 id="2、或运算符"><a href="#2、或运算符" class="headerlink" title="2、或运算符"></a>2、或运算符</h3><p>（a|b）表示a或b出现</p>
-<h3 id="3、字符类"><a href="#3、字符类" class="headerlink" title="3、字符类"></a>3、字符类</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[abc]+  方括号表示要匹配的字符来自方括号里，这个正则表达式含义为由a、b、c组成的字符串</span><br><span class="line"></span><br><span class="line">[a-z]+  表示所有小写的英文字符</span><br><span class="line">[a-zA-Z]+  表示所有英文字符</span><br><span class="line">[a-zA-Z0-<span class="number">9</span>]+  表示所有英文字符和数字</span><br><span class="line">[^<span class="number">0</span>-<span class="number">9</span>]+  表示所有非数字字符（b包括换行符）</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="4、元字符"><a href="#4、元字符" class="headerlink" title="4、元字符"></a>4、元字符</h3><p>==特殊字符使用\作转义==</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\d 表示数字字符</span><br><span class="line">\D 表示非数字字符</span><br><span class="line">\w 表示单词字符=英文字符+数字+下划线</span><br><span class="line">\W 表示非单词字符</span><br><span class="line">\s 表示下划线，包括Tab字符以及换行符</span><br><span class="line">\S 表示非空白字符</span><br><span class="line">\b 表示一个单词的开头或结尾</span><br><span class="line">    </span><br><span class="line">.  表示任意字符但不包含换行符</span><br><span class="line">^a 只会匹配行首的a</span><br><span class="line">a$ 只会匹配行尾的a</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="5、贪婪匹配-懒惰匹配"><a href="#5、贪婪匹配-懒惰匹配" class="headerlink" title="5、贪婪匹配  懒惰匹配"></a>5、贪婪匹配  懒惰匹配</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//实际匹配中默认选择贪婪匹配</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//贪婪匹配会尽可能匹配多的字符</span></span><br><span class="line">&lt;.+&gt;会匹配以下所有字符</span><br><span class="line">&lt;span&gt;&lt;b&gt;my<span class="string">&#x27;s regex learn&lt;/b&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">//懒惰匹配 在*后面加上?变成懒惰匹配 尽可能少的匹配</span></span><br><span class="line"><span class="string">&lt;.+?&gt;只会匹配上例中的</span></span><br><span class="line"><span class="string">&lt;span&gt;&lt;b&gt;&lt;/b&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>​        </p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
-    </nav>
+  
+
+  
+
+  
+
   
 
 
@@ -990,8 +339,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
